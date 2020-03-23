@@ -37,3 +37,9 @@
     transform: rotate(360deg);
   }
 }
+
+.feedtext{
+  font-size: 500%;
+  z-index: 500;
+  color: red;
+}

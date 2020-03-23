@@ -26,7 +26,7 @@ class App extends Component{
   constructor (props){
     super(props);
     this.state={apiResponse:"", loadr: true};
-    super();
+  
     this.state ={
       speed: 10
     }
@@ -101,7 +101,6 @@ class App extends Component{
             
             <main style={{marginTop:'64px'}}>
 
-              <h1>{this.state.speed}</h1>
               
               
             </main>
@@ -130,6 +129,9 @@ class App extends Component{
         
           
             </LoadingScreen>
+
+            
+            <h1 className="feedtext">{this.state.speed}</h1>
         </div>
               {/* The core Firebase JS SDK is always required and must be listed first */}
               <script src="/__/firebase/7.11.0/firebase-app.js"></script>
