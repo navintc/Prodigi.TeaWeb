@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/App.js
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Toolbar from "./components/Toolbar/Toolbar";
@@ -145,6 +146,33 @@ class App extends Component{
       </div>
     );
 }
+=======
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import {Link} from "react-router-dom";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+        <Link to="/home">Home</Link>
+      </header>
+    </div>
+  );
+>>>>>>> 3966a0f83cf49353bff878ade0b6a3a6166f5cc7:src/scenes/App/index.js
 }
 
 export default App;
