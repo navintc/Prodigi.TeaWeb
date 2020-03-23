@@ -1,0 +1,31 @@
+.triselecter{
+    width:50%;
+}
+
+.tritop{
+    position:absolute;
+    top: 620px;
+    left:44.5%;
+    width:12%;
+}
+
+.trileft{
+    position:absolute;
+    top: 910px;
+    left:33.5%;
+    width:12%;
+}
+
+/* .triright{
+    position:absolute;
+    top: 910px;
+    left:54.3%;
+    width:12%;
+} */
+
+.tribot{
+    position:absolute;
+    top: 850px;
+    left:44%;
+    width:12%;
+}

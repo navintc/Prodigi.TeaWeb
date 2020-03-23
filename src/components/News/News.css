@@ -1,0 +1,23 @@
+body{
+    background-image: url('./images/pop1.jpg');   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.newsimg{
+    top:-20px;
+    align-items: ;
+    min-width: 60ch;
+    min-height: 60ch;
+    width: 120%;
+    height: 120%; /*45vw*/
+    max-width: 120%;
+    max-height: 120%;
+}
+
+.spacer3{
+    min-height: 48ch;
+}
+
+.container2{
+}

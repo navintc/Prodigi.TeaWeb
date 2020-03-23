@@ -1,0 +1,39 @@
+.spacer3{
+    min-height: 48ch;
+}
+
+.joinbutton{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    border: 3px solid red;
+    border-radius: 50px;
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+
+.joincommunity{
+    min-height: 350px;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    
+}
+
+.rebel{
+    background-color: rgb(31,32,36);
+    color: white;
+    width:100%;
+    text-align: center;
+    padding: 7%;
+    border-radius: 10px;
+
+}
+.rebeltext{
+    font-size: 120%;
+
+    
+}

@@ -1,0 +1,73 @@
+.cubeboxcommunity{
+    width: 100%;
+    height: 15rem;
+    background: rgb(37, 37, 37);
+    display: inline-block; 
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.bigdivcommunity{
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.boxcontentcommunity{
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* align-self: center; */
+    position: relative;
+    left:1%;
+    
+}
+
+ .textboxcommunity{
+    width: 80%;
+    align-items: center;
+    display: inline-block;
+    flex-direction: column;
+    margin: 5px;
+} 
+
+.innerimgcommunity{
+    width: 250%;
+    height: 14.5rem;
+  
+    display: inline-block; 
+    align-items: center;
+    position: relative;
+    left: -1%;
+}   
+
+.imgplacecommunity{
+    width: 100%;
+    height : 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.spacer2community{
+    margin: 1rem;
+}
+
+
+
+@media(max-width:768px){
+    .innerimgcommunity {
+        display: none;
+    }
+
+    .boxcontentcommunity{
+        top: 3rem;
+        left:1%;
+    }
+
+}

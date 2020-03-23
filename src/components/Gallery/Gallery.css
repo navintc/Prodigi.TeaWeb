@@ -1,0 +1,37 @@
+.gal{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+}
+
+.galtextoutercover{
+    min-height: 350px;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    
+}
+
+.galtextouter{
+    background-color: rgb(31,32,36);
+    color: white;
+    width:100%;
+    text-align: center;
+    padding: 7%;
+    border-radius: 10px;
+
+}
+.galtext{
+    font-size: 120%;
+
+    
+}
+
+@media(max-width:768px){
+    .gal {
+        grid-template-columns: 100%;
+    }
+
+
+}
